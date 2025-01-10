@@ -1,4 +1,5 @@
 import Fooditem from "./Fooditem"
+import API from "../data/Api.json"
 
 export const Menu=()=>{
     return(
@@ -11,8 +12,14 @@ export const Menu=()=>{
                     
                 </div>
             </div>
-            <div className="w-[85vw] h-[85vh] bg-slate-600 overflow-auto  scrollbar-none flex">
-<Fooditem />
+            <div className="w-[98vw] px-[5vw] h-[75vh] overflow-x-hidden  grid grid-cols-2   ">
+{
+    API.map((item)=>{
+        return(
+        <Fooditem item={item} />
+        )
+    })
+}
             </div>
         
         </div>
