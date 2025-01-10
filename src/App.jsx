@@ -5,6 +5,7 @@ import Service from "../components/Service";
 import { About } from "../components/About";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import { Layout } from "../components/Layout";
+import Menu from "../components/Menu";
 
 export const App=()=>{
   const elem=createBrowserRouter([
@@ -27,7 +28,7 @@ export const App=()=>{
       },
       {
         path:"/menu",
-        element:<menu/>
+        element:<Menu/>
       }
       
     ]

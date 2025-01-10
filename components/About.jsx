@@ -5,12 +5,12 @@ export const About=()=>{
     AOS.init();
     return(
         <>
-        <div className="h-screen w-full flex bg-[#f1f1f1]">
+        <div className="h-screen w-full pt-[4vw] flex bg-[#f1f1f1]">
             <div className="left h-full w-[50vw] grid grid-cols-2">
             <div data-aos="zoom-in"><img className="w-[19vw] ml-[9vw]  rounded" src="https://themewagon.github.io/restoran/img/about-1.jpg" alt="" /></div>
             <div data-aos="zoom-in"><img className="w-[15vw] ml-[4vw] rounded mt-[4vw]" src="https://themewagon.github.io/restoran/img/about-2.jpg" alt="" /></div>
-            <div data-aos="zoom-in"><img className="w-[15vw] mt-[-6vw] rounded ml-[13vw]" src="https://themewagon.github.io/restoran/img/about-3.jpg" alt="" /></div>
-            <div data-aos="zoom-in"><img className="w-[20vw] mt-[-6vw] rounded ml-[4vw]" src="https://themewagon.github.io/restoran/img/about-4.jpg" alt="" /></div>
+            <div data-aos="zoom-in"><img className="w-[15vw] mt-[-3vw] rounded ml-[13vw]" src="https://themewagon.github.io/restoran/img/about-3.jpg" alt="" /></div>
+            <div data-aos="zoom-in"><img className="w-[20vw] mt-[-3vw] rounded ml-[4vw]" src="https://themewagon.github.io/restoran/img/about-4.jpg" alt="" /></div>
 
             </div>
             <div className="right h-full w-[50vw]">
