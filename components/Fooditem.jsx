@@ -14,13 +14,13 @@ export const Fooditem=(props)=>{
 </div>
 <div className="w-[10%] h-full">
     <h1 className="text-[1.3vw]">₹{price}</h1>
-    <h1 className="text-[13px]">{rating}</h1>
+    <h1 className="text-[13px] pb-3">{rating}<i class="ri-star-half-s-fill text-[#caca26]"></i></h1>
 </div>
     </div>
     <hr />
     <div className="w-full h-[50%] flex justify-between">
     <h1 className="capitalize text-[#585858]"> ({discription})</h1>
-        <button>Add</button>
+        <button className="bg-[orange] w-[6vw] h-[4vh] my-1 font-bold text-[white] rounded-lg hover:bg-[#ff933b]">Add</button>
     </div>
 </div>
         </div>

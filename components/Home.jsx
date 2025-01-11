@@ -5,13 +5,14 @@ import Service from "./Service"
 import Menu from "./Menu"
 import Bookform from "./Bookform"
 
-const Home =()=>{
-const showingBox=()=>{
-    gsap.to(".box",{
-        display:"block"
-    })
-}
 
+
+
+
+const Home =()=>{
+    const handleForm=()=>{
+        
+    }
     gsap.from(".elem-2",{
         x:"-30",
         opacity:"0",
@@ -37,18 +38,19 @@ const showingBox=()=>{
         <h1 className="text-[5vw] w-[40vw] ">Enjoy Our
         Delicious Meal</h1>
         <p className="w-[40vw]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-        <button onClick={()=>showingBox()} className="mt-[3vw] bg-[orange] py-[15px] px-[3vw] rounded uppercase hover:bg-[#ff933b]">book a table</button>
+        <button onClick={()=>{handleForm()}} className="mt-[3vw] bg-[orange] py-[15px] px-[3vw] rounded uppercase hover:bg-[#ff933b]">book a table</button>
         </div>
         <div className="w-[50%] h-full flex justify-center relative items-center">
             <img className="w-[75%] rotate absolute bg-cover bg-none " src="https://static.vecteezy.com/system/resources/thumbnails/048/559/014/small_2x/spaghetti-pasta-all-by-itself-on-a-transparent-background-free-png.png" alt="" />
             </div>
       </div>
     </div>
-    <Bookform  box={"box"} />
+    <Bookform/>
     <Service />
     <About />
     <Menu />
+   
         </>
     )
 }
-export default Home
+export default Home;

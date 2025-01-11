@@ -12,7 +12,7 @@ export const Nav=()=>{
 <Button home={"about"} url={"/about"}/>
 <Button  home={"service"} url={"/service"}/>
 <Button  home={"menu"} url={"/menu"}/>
-<Button  home={"contact"}/>
+<Button  home={"contact"} />
 
           <i class="ri-shopping-cart-fill bg-[orange] px-6 py-2 rounded hover:bg-[#ff933b]"><button className="capitalize text-[1.3vw] ">add to cart</button></i> 
         </div>
