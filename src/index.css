@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=El+Messiri:wght@400..700&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+
 *{
     font-family: "El Messiri", serif;
 }
@@ -26,3 +28,8 @@
   .scrollbar-none::-webkit-scrollbar {
     display: none; 
   } */
+
+
+  input{
+    accent-color:orange;
+  }

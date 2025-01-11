@@ -1,9 +1,12 @@
 import Fooditem from "./Fooditem"
 import API from "../data/Api.json"
+import Itemsize from "./Itemsize"
+
 
 export const Menu=()=>{
     return(
         <>
+        
         <div className=" w-full h-screen flex justify-center items-center flex-col bg-[#f1f1f1]">
             <div className="flex justify-center items-center flex-col">
                 <h1 className="text-[3vw] capitalize text-orange-500 relative bg-[#f1f1f1] px-4 z-10">food menu</h1>
@@ -17,6 +20,7 @@ export const Menu=()=>{
     API.map((item)=>{
         return(
         <Fooditem item={item} />
+          
         )
     })
 }

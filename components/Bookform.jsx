@@ -19,7 +19,7 @@ export const Bookform = ({box}) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted: ", formData);
-    alert("Your table has been booked successfully!");
+    // alert("Your table has been booked successfully!");
     setFormData({ name: "", phone: "", date: "", time: "", guests: 1 });
   };
   console.log(formData);
@@ -30,6 +30,14 @@ const hiddenBox=()=>{
     duration:2
   })
 }
+
+const hiddenBox1=()=>{
+  gsap.to(".box",{
+    display:"none",
+  delay:-2
+  })
+}
+
   return (
     <div className={`w-[25vw] ${box} mx-auto p-6 z-20 left-[37%] hidden top-[55%] bg-white text-[black]  backdrop-blur-[100vw] absolute mt-[-20vw] shadow-md rounded-lg`}>
       < h2 className="text-xl font-bold text-[orange] text-center mb-4">Book a Table</h2>
@@ -114,6 +122,7 @@ const hiddenBox=()=>{
         </div>
 
         <button
+        onClick={()=>hiddenBox1()}
           type="submit"
           className="w-full bg-[orange] text-white py-[3px] px-4 rounded-md hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         >

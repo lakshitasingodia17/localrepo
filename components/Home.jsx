@@ -4,6 +4,8 @@ import { About } from "./About"
 import Service from "./Service"
 import Menu from "./Menu"
 import Bookform from "./Bookform"
+import Contacts from "./Contacts"
+
 
 
 
@@ -11,7 +13,9 @@ import Bookform from "./Bookform"
 
 const Home =()=>{
     const handleForm=()=>{
-        
+        gsap.to(".box",{
+            display:"block"
+        })
     }
     gsap.from(".elem-2",{
         x:"-30",
@@ -45,10 +49,12 @@ const Home =()=>{
             </div>
       </div>
     </div>
-    <Bookform/>
+    <Bookform box={"box"} />
     <Service />
     <About />
     <Menu />
+<Contacts />
+
    
         </>
     )

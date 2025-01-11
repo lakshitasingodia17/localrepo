@@ -5,7 +5,7 @@ export const Footer=()=>{
  <div className="h-[40vh] w-[26vw] justify-center items-start">
     <h1 className="text-[2.5vw] capitalize text-[orange] font-bold">contact <sup>____</sup> </h1>
     <div className="pt-4" >
-    <h2 className="font-bold text-[white] text-[1.3vw] capitalize"><i class="ri-map-pin-fill mx-2 text-[white]"></i>bharat petrol pump, jhunjhunu road gudha, gorji</h2>
+    <h2 className="font-bold text-[white] text-[1.3vw] capitalize"><i class="ri-map-pin-fill mx-2 text-[white]"></i> bharat petrol pump, jhunjhunu road <span className="ml-[3vw]"> gudha, gorji</span></h2>
    <h2 className="font-bold text-[white] my-3 text-[1.3vw]"> <i class="ri-phone-fill mx-2"></i>8107587773</h2>
    <h2 className="font-bold text-[white] text-[1.3vw]"> <i class="ri-mail-fill mx-2"></i> info@GUDHADELIGHT.com</h2></div>
    <div className="flex gap-2 pt-6 cursor-pointer">
