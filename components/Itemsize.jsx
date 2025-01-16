@@ -25,13 +25,13 @@ const hideBox=()=>{
             <p className="text-[1vw] text-[#5f5f5f] capitalize mt-[-1.2vw]">required <span className="text-[2vw] relative mt-[-30px] ">.</span>   select any 1 option</p></div>
             <div className="w-full h-[1px] bg-[#dbdbdb]"></div>
             <div className="flex justify-between items-center my-3">
-                <h1 className="capitalize font-bold">half</h1>
+                <h1 className="capitalize font-bold">small</h1>
                 <div className="flex items-center gap-1 h-6">
                     <h1 className="font-bold">110</h1>
                 <input className="mt-[-5px]" type="radio" name="same" /></div>
             </div>
             <div className="flex justify-between items-center my-2">
-                <h1 className="capitalize font-bold">full</h1>
+                <h1 className="capitalize font-bold">large</h1>
                 <div className="flex items-center gap-1 h-6">
                 <h1 className="capitalize font-bold">120</h1>
                 <input className="mt-[-5px] focus:ring-indigo-900" type="radio" name="same" />
@@ -46,7 +46,7 @@ const hideBox=()=>{
                  <textarea className="outline-none rounded-lg px-1 py-1 text-[1vw] placeholder:text-gray-500 bg-gray-200" name="" cols={41} rows={3} placeholder="e.g Don't make it too spicy" id=""></textarea>
             </div> 
             <div className="bg-white h-[10vh] flex w-full justify-between absolute bottom-0 rounded-b-lg">
-                <div className="w-[28%] ml-[2%] h-[60%] justify-between items-center rounded-lg mt-[5%] flex border border-orange-600 px-2 bg-[#fdc08e9a]">
+                <div className="w-[28%] ml-[2%] h-[60%] text-[1.3vw] font-bold justify-between items-center rounded-lg mt-[5%] flex border border-orange-600 px-2 bg-[#fdc08e9a]">
 <button onClick={()=>{
     if(count>0){
         setCount(count-1)
