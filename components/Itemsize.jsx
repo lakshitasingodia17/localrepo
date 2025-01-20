@@ -11,7 +11,8 @@ const hideBox=()=>{
 }
 
     return (
-       <div className={`h-[75vh] ${name} ml-[35%] hidden  z-20 bg-[#eeecec] w-[25vw] border border-gray-200 absolute  rounded-lg`}>
+    <div className={`w-full ${name}  h-screen z-0 hidden px-[35vw] py-[7vw] left-0 absolute flex justify-center items-center`}>
+       <div className={`h-[75vh]  z-50 w-[25vw] bg-white border border-gray-200  rounded-lg`}>
         
        <div className="h-[75vh] bg-[#eeecec] w-[25vw] border border-gray-200 relative  rounded-lg">
        <div onClick={()=>{hideBox()}} className="absolute text-[3vw] mt-[-4vw] ml-[10.2vw] cursor-pointer"><i class="ri-close-circle-line text-[#504e4e]"></i></div>
@@ -61,6 +62,7 @@ const hideBox=()=>{
                     <button className="text-[1.3vw] w-full h-full rounded-lg bg-[#ff933b]">Add item price</button>
                 </div>
             </div>
+       </div>
        </div>
        </div>
     )

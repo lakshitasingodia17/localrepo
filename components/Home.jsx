@@ -5,6 +5,7 @@ import Service from "./Service"
 import Menu from "./Menu"
 import Bookform from "./Bookform"
 import Contacts from "./Contacts"
+import AddComponents from "./AddComponents"
 
 
 
@@ -33,6 +34,7 @@ const Home =()=>{
    
     return(
         <>
+        
          <div className=" h-[120vh] w-full ">
 
   <div className="w-full bg-cover brightness-[.2] h-[120vh] bg-[url('https://images.unsplash.com/photo-1613082589739-004c07170907?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] absolute"></div>
