@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
  export const Service=()=>{
     AOS.init();
     return(
-        <div className="w-full bg-[#f1f1f1] h-[65vh] flex justify-evenly items-center ">
+        <div className="w-full bg-[#f1f1f1] pt-6 h-[65vh] flex justify-evenly items-center ">
             <div data-aos="fade-up" data-aos-duration="500"
     data-aos-easing="ease-in-out"><Card icon={"ri-user-2-fill"} title={"master chefs"} descreption={"Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam"}/></div>
             <div data-aos="fade-up" data-aos-delay="50"  data-aos-duration="1000"

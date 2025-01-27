@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "img":"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "productName":"lakssdahf",
+        "price":"150",
+        "discription":"creamy and tangy coleslow forms another layer.",
+        "rating":"4.3"
+    },
+    {
+        "id":"2",
+        "img":"https://plus.unsplash.com/premium_photo-1675252369719-dd52bc69c3df?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "productName":"alu-tikki burger",
+        "price":"60",
+        "discription":"creamy and tangy coleslow forms another layer.",
+        "rating":"4.3"
+    }
+]

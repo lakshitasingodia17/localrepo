@@ -6,6 +6,9 @@ import Menu from "./Menu"
 import Bookform from "./Bookform"
 import Contacts from "./Contacts"
 import AddComponents from "./AddComponents"
+import MenuSection from "./MenuSection"
+import { useEffect } from "react"
+
 
 
 
@@ -25,12 +28,14 @@ const Home =()=>{
         yoyo:true
 
     })
+    useEffect( ()=>{
     gsap.to(".rotate",{
         rotate:"360deg",
         duration:"50",
         repeat:"-1",
         yoyo:true
-    })
+    })}
+    )
    
     return(
         <>
@@ -54,7 +59,7 @@ const Home =()=>{
     <Bookform box={"box"} />
     <Service />
     <About />
-    <Menu />
+    <MenuSection />
 <Contacts />
 
    
