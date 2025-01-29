@@ -47,7 +47,7 @@
     {
         "id":"6",
         "img":"https://plus.unsplash.com/premium_photo-1673769108258-4e0053145334?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "productName":"steamed momos 6pc",
+        "productName":"steamed momos",
         "price":"165",
         "discription":"creamy and tangy coleslow forms another layer.",
         "rating":"4.3",
@@ -56,7 +56,7 @@
     {
         "id":"7",
         "img":"https://images.unsplash.com/photo-1532903460337-0d1b9a71b2c0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "productName":"spicy bombay sandwich",
+        "productName":" bombay sandwich",
         "price":"150",
         "discription":"creamy and tangy coleslow forms another layer.",
         "rating":"4.3",
@@ -73,9 +73,9 @@
     },
     {
         "id":"9",
-        "img":"",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWE1sTq771bb2AUPOFLjCkKRGPSx2UyFfjdQ&s",
         "productName":"Vada pao",
-        "price":"250",
+        "price":"35",
         "discription":"creamy and tangy coleslow forms another layer.",
         "rating":"4.3",
         "category":"fastfood"
@@ -84,19 +84,46 @@
         "id":"10",
         "img":"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "productName":"chai",
-        "price":"210",
+        "price":"30",
         "discription":"creamy and tangy coleslow forms another layer.",
         "rating":"4.3",
         "category":"breakfast"
     },
     {
         "id":"11",
-        "img":"https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "productName":"butter-bun",
-        "price":"100",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN3T-5gwNOqorhf_1UAbAl858FjfAb6Noksw&s",
+        "productName":"bun-butter",
+        "price":"50",
         "discription":"creamy and tangy coleslow forms another layer.",
         "rating":"4.3",
         "category":"breakfast"
+    },
+    {
+        "id":"12",
+        "img":"https://w7.pngwing.com/pngs/256/765/png-transparent-beans-dish-illustration-dal-makhani-indian-cuisine-khichdi-dosa-recipe-food-recipe-cooking-thumbnail.png",
+        "productName":"dal makhani",
+        "price":"242",
+        "discription":"creamy and tangy coleslow forms another layer.",
+        "rating":"4.3",
+        "category":"dinner"
+    },
+    {
+        "id":"13",
+        "img":"https://img.freepik.com/free-psd/delicious-paneer-tikka-masala-indian-cuisine-orange-curry-bowl_84443-35244.jpg",
+        "productName":"paneer butter",
+        "price":"275",
+        "discription":"creamy and tangy coleslow forms another layer.",
+        "rating":"4.3",
+        "category":"dinner"
+    },
+    {
+        "id":"14",
+        "img":"https://5.imimg.com/data5/SELLER/Default/2020/8/VA/IM/HQ/104164585/kulfi-ice-cream-500x500.jpg",
+        "productName":"laccha paratha",
+        "price":"82.50",
+        "discription":"creamy and tangy coleslow forms another layer.",
+        "rating":"4.3",
+        "category":"dinner"
     }
     
 ]
